@@ -1,31 +1,67 @@
 {
-  "hash": "6136b3c2",
+  "hash": "f22d5e7b",
   "configHash": "e1b309bb",
-  "lockfileHash": "d7796075",
-  "browserHash": "a6727bde",
+  "lockfileHash": "9142aaba",
+  "browserHash": "4f1a5249",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "e5de8506",
+      "fileHash": "ccd800e3",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "94585e59",
+      "fileHash": "85f2ba6b",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "de3a6ae7",
+      "fileHash": "471c7d60",
+      "needsInterop": false
+    },
+    "element-plus": {
+      "src": "../../../../node_modules/element-plus/es/index.mjs",
+      "file": "element-plus.js",
+      "fileHash": "61c9b5de",
+      "needsInterop": false
+    },
+    "element-plus/es/components/message/style/css": {
+      "src": "../../../../node_modules/element-plus/es/components/message/style/css.mjs",
+      "file": "element-plus_es_components_message_style_css.js",
+      "fileHash": "eec5d204",
+      "needsInterop": false
+    },
+    "element-plus/es/components/pagination/style/css": {
+      "src": "../../../../node_modules/element-plus/es/components/pagination/style/css.mjs",
+      "file": "element-plus_es_components_pagination_style_css.js",
+      "fileHash": "614d700b",
+      "needsInterop": false
+    },
+    "element-plus/es/components/tag/style/css": {
+      "src": "../../../../node_modules/element-plus/es/components/tag/style/css.mjs",
+      "file": "element-plus_es_components_tag_style_css.js",
+      "fileHash": "4acb9493",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-CZX7GLWV": {
-      "file": "chunk-CZX7GLWV.js"
+    "chunk-BFPW3BWT": {
+      "file": "chunk-BFPW3BWT.js"
+    },
+    "chunk-MSADH3TM": {
+      "file": "chunk-MSADH3TM.js"
+    },
+    "chunk-O3YQPVDG": {
+      "file": "chunk-O3YQPVDG.js"
+    },
+    "chunk-YCYCIHK5": {
+      "file": "chunk-YCYCIHK5.js"
+    },
+    "chunk-5WRI5ZAA": {
+      "file": "chunk-5WRI5ZAA.js"
     }
   }
 }

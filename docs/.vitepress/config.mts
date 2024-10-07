@@ -4,33 +4,40 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "李寻常的个人博客",
   description: "LI XUN CHANG",
+  appearance: true, // 黑、白
+  cleanUrls: true,
+  lastUpdated: true,
   themeConfig: {
+    logo: "lixunchang.png",
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' },
-      { text: '简介', link: '/intro' }
+      { text: '首页', link: '/' },
+      { text: '技术', activeMatch: '/tech/', link: '/tech' },
+      { text: '思想', activeMatch: '/thought/', link: '/thought' },
+      { text: '生活', activeMatch: '/survive/', link: '/survive' },
+      { text: '简介', activeMatch: '/intro/', link: '/intro' }
     ],
 
-    sidebar: [
-      {
-        text: 'Examples2',
-        items: [
-          { text: 'Markdown Examples2', link: '/markdown-examples' },
-          { text: 'Runtime API Examples2', link: '/api-examples' }
-        ]
-      },
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
-
+    sidebar: {
+      '/intro/': [
+        {
+          text: '简介',
+          items: [
+            { text: '思想经历', link: '/item-4' },
+            { text: '开源经历', link: '/item-3' },
+            { text: '工作经历', link: '/item-2' },
+            { text: '教育经历', link: '/item-1' },
+          ]
+        }
+      ]
+    },
+    aside: true,
+    outline: {
+      level: [2,6],
+      label: '大纲'
+    },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/lixunchang' }
     ],
     // 项目首页的footer
     footer: {
