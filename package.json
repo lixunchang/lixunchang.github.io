@@ -1,5 +1,13 @@
 {
+  "name": "lixunchang",
+  "description": "李寻常的个人博客，只是寻常。",
+  "version": "1.0.0",
+  "private": false,
+  "author": "chuzhixin",
   "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"

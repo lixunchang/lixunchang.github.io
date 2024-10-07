@@ -13,22 +13,17 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '技术', activeMatch: '/tech/', link: '/tech' },
-      { text: '思想', activeMatch: '/thought/', link: '/thought' },
       { text: '生活', activeMatch: '/survive/', link: '/survive' },
+      { text: '思想', activeMatch: '/thought/', link: '/thought' },
       { text: '简介', activeMatch: '/intro/', link: '/intro' }
     ],
 
     sidebar: {
       '/intro/': [
-        {
-          text: '简介',
-          items: [
-            { text: '思想经历', link: '/item-4' },
-            { text: '开源经历', link: '/item-3' },
-            { text: '工作经历', link: '/item-2' },
-            { text: '教育经历', link: '/item-1' },
-          ]
-        }
+        { text: '简介', link: '/intro' },
+        { text: '开源项目', link: '/intro/open-source' },
+        { text: '个人简历', link: '/intro/resume' },
+        { text: '汇编年', link: '/intro/history' },
       ]
     },
     aside: true,
@@ -41,7 +36,7 @@ export default defineConfig({
     ],
     // 项目首页的footer
     footer: {
-      message: "基于 MIT 许可发布",
+      message: "只是寻常",
       copyright: "版权所有 © 2024-2029 李寻常",
     },
   }

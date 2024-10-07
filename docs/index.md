@@ -9,17 +9,17 @@ hero:
   actions:
     - theme: brand
       text: 最新博客
-      link: /markdown-examples
+      link: /intro/open-source
     - theme: alt
       text: 个人简介
-      link: /api-examples
+      link: /intro
 
 features:
   - title: 技术
-    details: Vue/React/Android
+    details: 2024年2月至今 主要开发Vue2/3项目；2018年2月 ~ 2024年2月  主要开发React项目；2016年10月 ~ 2018年2月 主要开发Android项目；2016年2月 ~ 2016年10月 自学Java/Android开发...
   - title: 生活
-    details: 东奔西走，南辕北辙，讨生活
+    details: 现居十堰，已婚未孕，全职前端开发，远程办公。出生在十堰，大学在重庆，上海生活了3个月，银川生活了3个月，忻州生活1年，朔州生活6个月，深圳2个月，广州1个月，西安2个月，苏州8个月，杭州8年...
   - title: 思想
-    details: 只是寻常
+    details: 5分心力，只是寻常。自幼腼腆多思，人称空洞的哲学家，喜古典文学，日常纠结儒道思想选择，后接触马克思，限于个人心力，都是了解个皮毛，后偏爱阳明心学，磨炼知行合一...
 ---
 
