@@ -45,7 +45,7 @@ import 'element-plus/es/components/message/style/css'
 import 'element-plus/es/components/pagination/style/css'
 import 'element-plus/es/components/tag/style/css'
 
-import { data as posts } from "./.vitepress/theme/data/tech.data.mts";
+import { data as posts } from "../.vitepress/theme/data/tech.data.mts";
 console.log('posts===>', posts)
 
 // const search = window.location.search.slice(1);

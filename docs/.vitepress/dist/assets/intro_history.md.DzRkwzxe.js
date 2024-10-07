@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as r}from"./chunks/framework.DBSON_Kr.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"intro/history.md","filePath":"intro/history.md","lastUpdated":1728307403000}'),o={name:"intro/history.md"};function a(s,n,i,c,d,p){return r(),e("div")}const f=t(o,[["render",a]]);export{m as __pageData,f as default};
