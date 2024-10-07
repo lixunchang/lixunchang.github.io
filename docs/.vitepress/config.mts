@@ -8,7 +8,7 @@ export default defineConfig({
   cleanUrls: true,
   lastUpdated: true,
   themeConfig: {
-    logo: "lixunchang.png",
+    logo: "/lixunchang.png",
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
