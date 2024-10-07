@@ -12,9 +12,9 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '技术', activeMatch: '/tech/', link: '/.list/tech' },
-      { text: '生活', activeMatch: '/survive/', link: '/.list/survive' },
-      { text: '思想', activeMatch: '/thought/', link: '/.list/thought' },
+      { text: '技术', activeMatch: '/tech/', link: '/tech/.list' },
+      { text: '生活', activeMatch: '/survive/', link: '/survive/.list' },
+      { text: '思想', activeMatch: '/thought/', link: '/thought/.list' },
       { text: '简介', activeMatch: '/intro/', link: '/intro' }
     ],
 
