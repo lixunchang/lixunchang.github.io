@@ -8,7 +8,7 @@ export function excerptFn(file: { data: { [key: string]: any }; content: string;
 }
 
 export function excerptNoTitleFn(excerpt: string = ''){
-  return excerpt?.split('</h1>')[1].replaceAll('<img src="./../public/images', '<img src="/images')
+  return excerpt?.split('</h1>')[1]?.replaceAll('<img src="./../public/images', '<img src="/images')||''
 }
 
 export function formatTitle(frontmatter:  any, src: string = ''){
