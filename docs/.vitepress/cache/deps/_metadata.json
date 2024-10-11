@@ -1,53 +1,62 @@
 {
-  "hash": "f22d5e7b",
+  "hash": "91af8341",
   "configHash": "e1b309bb",
-  "lockfileHash": "9142aaba",
-  "browserHash": "4f1a5249",
+  "lockfileHash": "052399f8",
+  "browserHash": "6d283585",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "ccd800e3",
+      "fileHash": "3f651f6c",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "85f2ba6b",
+      "fileHash": "58723556",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "471c7d60",
+      "fileHash": "0bbc2a9f",
       "needsInterop": false
     },
     "element-plus": {
       "src": "../../../../node_modules/element-plus/es/index.mjs",
       "file": "element-plus.js",
-      "fileHash": "61c9b5de",
+      "fileHash": "68e1cbc6",
       "needsInterop": false
     },
     "element-plus/es/components/message/style/css": {
       "src": "../../../../node_modules/element-plus/es/components/message/style/css.mjs",
       "file": "element-plus_es_components_message_style_css.js",
-      "fileHash": "eec5d204",
+      "fileHash": "625387db",
       "needsInterop": false
     },
     "element-plus/es/components/pagination/style/css": {
       "src": "../../../../node_modules/element-plus/es/components/pagination/style/css.mjs",
       "file": "element-plus_es_components_pagination_style_css.js",
-      "fileHash": "614d700b",
+      "fileHash": "5b826687",
       "needsInterop": false
     },
     "element-plus/es/components/tag/style/css": {
       "src": "../../../../node_modules/element-plus/es/components/tag/style/css.mjs",
       "file": "element-plus_es_components_tag_style_css.js",
-      "fileHash": "4acb9493",
+      "fileHash": "2eb5a279",
+      "needsInterop": false
+    },
+    "@giscus/vue": {
+      "src": "../../../../node_modules/@giscus/vue/dist/index.js",
+      "file": "@giscus_vue.js",
+      "fileHash": "1b85c0f9",
       "needsInterop": false
     }
   },
   "chunks": {
+    "giscus-BNK3dBIH-ZI4DMG76": {
+      "file": "giscus-BNK3dBIH-ZI4DMG76.js"
+    },
     "chunk-BFPW3BWT": {
       "file": "chunk-BFPW3BWT.js"
     },
