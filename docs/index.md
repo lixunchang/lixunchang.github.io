@@ -8,8 +8,8 @@ hero:
   tagline: 只是寻常
   actions:
     - theme: brand
-      text: 最新博客
-      link: /intro/open-source
+      text: 技术博客
+      link: /list/tech
     - theme: alt
       text: 个人简介
       link: /intro
