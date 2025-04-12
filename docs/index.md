@@ -3,12 +3,12 @@
 layout: home
 
 hero:
-  name: "李寻常的个人博客"
-  text: "LI XUN CHANG"
-  tagline: 只是寻常
+  name: "八阿哥修理铺"
+  text: "BUG Fix"
+  tagline: WX:18671660906
   actions:
     - theme: brand
-      text: 技术博客
+      text: 修理铺
       link: /list/tech
     - theme: alt
       text: 个人简介
@@ -24,4 +24,3 @@ features:
     details: 5分心力，只是寻常。<br/>偏爱阳明心学，磨炼知行合一...
 # 自幼腼腆多思，人称空洞的哲学家，喜古典文学，日常纠结儒道思想选择，接触马克思，限于个人心力，都是了解个皮毛；<br/>后偏爱阳明心学，磨炼知行合一...
 ---
-
