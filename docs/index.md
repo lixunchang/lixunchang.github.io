@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "八阿哥修理铺"
-  text: "BUG Fix"
+  text: "Bug Fix Shop"
   tagline: WX:18671660906
   actions:
     - theme: brand

@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "李寻常的个人博客",
-  description: "LI XUN CHANG",
+  title: "八阿哥修理铺",
+  description: "bug fix",
   appearance: true, // 黑、白
   cleanUrls: true,
   lastUpdated: true,
@@ -36,8 +36,8 @@ export default defineConfig({
     ],
     // 项目首页的footer
     footer: {
-      message: "只是寻常",
-      copyright: "版权所有 © 2024-2029 李寻常",
+      message: "十年专业，品质保障",
+      copyright: "版权所有 © 2024-2029 八阿哥修理铺",
     },
   }
 })
